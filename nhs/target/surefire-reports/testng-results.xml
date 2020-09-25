@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.testrunner.TestRunner" duration-ms="156777" started-at="2020-09-25T08:10:13Z" finished-at="2020-09-25T08:12:50Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="156777" started-at="2020-09-25T08:10:13Z" finished-at="2020-09-25T08:12:50Z">
+      <class name="com.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="setUpClass" is-config="true" duration-ms="1364" started-at="2020-09-25T08:10:13Z" finished-at="2020-09-25T08:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="before" is-config="true" duration-ms="354" started-at="2020-09-25T08:10:15Z" finished-at="2020-09-25T08:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="29469" started-at="2020-09-25T08:10:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:10:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "chrome" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="18491" started-at="2020-09-25T08:10:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:11:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "chrome" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="13420" started-at="2020-09-25T08:11:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "chrome" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="17257" started-at="2020-09-25T08:11:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "chrome" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="29655" started-at="2020-09-25T08:11:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "firefox" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="14362" started-at="2020-09-25T08:12:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "firefox" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="14033" started-at="2020-09-25T08:12:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "firefox" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="runScenario" duration-ms="13690" started-at="2020-09-25T08:12:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-25T08:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To get cost details from NHS based my details in "firefox" browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NHS Costs Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="after" is-config="true" duration-ms="4589" started-at="2020-09-25T08:12:45Z" finished-at="2020-09-25T08:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@6a2bcfcb]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2020-09-25T08:12:50Z" finished-at="2020-09-25T08:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testrunner.TestRunner -->
+</testng-results>
